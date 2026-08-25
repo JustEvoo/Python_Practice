@@ -1,1 +1,1 @@
-Still learning python
+Currently learning Python
