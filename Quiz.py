@@ -1,10 +1,16 @@
 
-questions = ("Why is that? ",
-             "Who did that? ")
-options = (("A. idk", "B. who knows", "C. alr bro", "D. yes"),
-           ("A. why", "B. idk bro", "C. sweet", "D. awesome"))
+questions = ("What is the capital of France? ",
+             "Which planet is known as the Red Planet? ",
+             "What is the largest ocean on Earth? ",
+             "Who wrote 'Romeo and Juliet'? ",
+             "What is the chemical symbol for gold? ")
 
-answers = ("C", "D")
+options = (("A. Paris", "B. London", "C. Berlin", "D. Madrid"),
+           ("A. Venus", "B. Mars", "C. Jupiter", "D. Saturn"),
+           ("A. Atlantic Ocean", "B. Indian Ocean", "C. Arctic Ocean", "D. Pacific Ocean"),
+           ("A. Charles Dickens", "B. William Shakespeare", "C. Mark Twain", "D. Jane Austen"),
+           ("A. Ag", "B. Au", "C. Fe", "D. Pb"))
+answers = ("A", "B", "D", "B", "B")
 guesses = []
 score = 0
 question_num = 0
