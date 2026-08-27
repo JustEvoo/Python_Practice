@@ -13,13 +13,15 @@ while is_running:
         guesses += 1
         if guess < low or guess > high:
             print(f"Please enter a number between {low} and {high}")
-
-        if guess == answer:
+        elif guess > answer:
+            print("Lower")
+        elif guess < answer:
+            print("Higher")
+        else:
             print("Congratulations! You guessed the number!")
             is_running = False
-        else:
-            print("Sorry, you lost the number!")
-
+    else:
+        print(f"Please enter a number between {low} and {high}")
 print("Thanks for playing!")
 
 
