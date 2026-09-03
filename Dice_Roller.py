@@ -49,6 +49,7 @@ dice = []
 total = 0
 num_of_dice = int(input("How many dice?: "))
 
+#Adding the dices
 for die in range(num_of_dice):
     dice.append(random.randint(1, 6))
 print(dice)
