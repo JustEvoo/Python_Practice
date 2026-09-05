@@ -1,8 +1,11 @@
+def add(*nums):
+    total = 0
+    for arg in nums:
+        total += arg
+    return total
 
-def name(first, last):
-    first = first.capitalize()
-    last = last.capitalize()
-    return first + " " + last
+def address(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
 
-full_name = name("justin", "evo")
-print(full_name)
+address(Country="Indonesia", city="Yogyakarta")
